@@ -130,7 +130,7 @@ class Starfield {
 
 class DiscordStatus {
   constructor() {
-    this.userId = "554071670143451176"
+    this.userId = "951125837674074112"
     this.apiUrl = `https://api.lanyard.rest/v1/users/${this.userId}`
     this.intervals = new Map()
     this.statusColors = {
@@ -736,3 +736,4 @@ class App {
 }
 
 new App()
+

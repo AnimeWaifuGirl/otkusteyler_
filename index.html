@@ -57,6 +57,18 @@
     <link rel="alternate" href="https://animewaifugirl.github.io/otkusteyler_/de/" hreflang="de" />
     <link rel="alternate" href="https://animewaifugirl.github.io/otkusteyler_/" hreflang="x-default" />
 
+    <!-- Script --> 
+    <script>
+    const lang = navigator.language || navigator.userLanguage;
+
+    if (lang.startsWith("de")) {
+      window.location.href = "/de/";
+    } else if (lang.startsWith("en")) {
+      window.location.href = "/en/";
+    } else {
+      window.location.href = "/"; // default
+    }
+    </script>
     
     <link rel="icon" href="https://raw.githubusercontent.com/AnimeWaifuGirl/otkusteyler_/refs/heads/main/ico/otkusteyler.png" type="image/png" />
     <title>bmc ₊˚⊹♡</title>
@@ -232,6 +244,7 @@
     <script type="module" src="script.js"></script>
   </body>
 </html>
+
 
 
 
